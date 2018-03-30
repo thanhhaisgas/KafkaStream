@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="rfx-stream">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/rfx-stream.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

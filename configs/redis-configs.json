@@ -1,0 +1,52 @@
+{
+	clusterInfoRedis : [
+		{ host : "127.0.0.1",port: 6379 }
+	]
+	,
+	realtimeDataStats : [
+		{ host : "127.0.0.1", port: 6379 }
+	]
+	,
+	adDataStats : [
+		{ host : "127.0.0.1", port: 6379 }
+	] 
+	,
+	adBookingData : [
+		{ host : "127.0.0.1", port: 6379 }
+	] 	
+	,
+	locationDataStats : [
+		{ host : "127.0.0.1", port: 6379 }
+	] 	
+	,
+	productionAdDataStats : [
+		{ host : "127.0.0.1", port: 6379 }
+	]
+	,
+    sponsoredContentStats : [
+        { host : "127.0.0.1", port: 6379 }
+    ]
+    ,
+    inventoryDataStats : [
+    	{ host : "127.0.0.1", port: 6379 }
+    ]
+    ,
+    contentIdHash : [
+    	{ host : "127.0.0.1", port: 6379 }
+    ]
+    ,
+    liveTVIdHash : [
+    	{ host : "127.0.0.1", port: 6379 }
+    ]
+    ,
+    mediaRevenueDataStats : [
+    	{ host : "127.0.0.1", port: 6379 }
+    ]
+    ,
+    redisUuid : [
+    	{ host : "127.0.0.1", port: 6379 }
+    ],
+     deliveryCache : [
+                { host : "118.69.190.41", port: 6401 }
+        ]
+}

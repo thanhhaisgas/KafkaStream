@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ip2location">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/ip2location.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

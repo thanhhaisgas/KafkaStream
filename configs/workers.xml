@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkerConfigs classpath="rfx.core.configs.WorkerConfigs" type="object" >
+	
+	<!-- the shell-script for start workers -->
+	<startWorkerScriptPath>		
+		./start-worker.sh
+	</startWorkerScriptPath>
+		
+	<!-- where the debug/info/error logs store -->
+	<debugLogPath>/Users/haint/Work/JavaBE/adsplay-report-tracking/logs</debugLogPath>
+	
+	<!-- the allocated port for workers -->	
+	<allocatedWorkers type="list" >		
+				
+	</allocatedWorkers>
+		
+	<!-- the custom configs for workers -->
+	<customConfigs type="map" >
+		<config name="fullIP2LocationPath">
+			/Users/haint/Work/JavaBE/adsplay-report-tracking/resource/IP2LOCATION-LITE-DB5.BIN
+		</config>		
+		<config name="baseRawLogPath">
+			/Users/haint/Work/JavaBE/adsplay-report-tracking/raw-logs
+		</config>
+		<config name="enableWriteRawLog">true</config>
+	</customConfigs>
+		
+</WorkerConfigs>
